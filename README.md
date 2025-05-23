@@ -1,5 +1,8 @@
 ##########  **Deploy Wordpress On Kubernet**  ############
+
 #################  **Step-by-Step**  #####################
+
+**Go inside the WordPress directory and run the command step by step**
 
 **Create Namespace**
 
