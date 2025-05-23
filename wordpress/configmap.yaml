@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wp-config
+  namespace: wordpress-prod
+data:
+  mariadb-database: wordpress
+  mariadb-user: wpuser
+
