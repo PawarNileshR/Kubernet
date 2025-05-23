@@ -162,6 +162,9 @@ kubectl get ingress -n wordpress-prod
 http://<node-public-ip>:<nodeport> 
 
 
+#####################################  END  ##########################
+
+
 
 
 
