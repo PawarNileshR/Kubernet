@@ -30,7 +30,9 @@ Ensure that your EBS CSI driver is configured before proceeding. This storage cl
 
 cd aws-ebs-csi-driver/deploy/kubernetes/overlays/stable
 kubectl apply -k .
-cd -
+
+cd go to /yamls/directories
+
 kubectl apply -f ebs-sc.yaml
 
 🔀 Ensure your Kubernetes cluster is running on AWS and that IAM roles and CSI driver installation are completed successfully.
@@ -102,6 +104,7 @@ http://wordpress.local
 ######################################   **IAM Role**  #####################################
  **STEP-1 Create IAM Policy for EBS CSI Driver**
  
+ 
  {
   "Version": "2012-10-17",
   "Statement": [
@@ -128,6 +131,8 @@ http://wordpress.local
     }
   ]
 }
+
+
 **STEP-2 Create role and attache policy**
 Go to AWS Console → Click → IAM Role → Create the role → Attache our create policy
 
